@@ -1,2 +1,28 @@
 console.log("You're terminated!");
 console.log("\¥ \t ABC \n abc \"注意だよ\"");
+var color = "Red";
+console.log(color);
+console.log(typeof (color));
+var pi = 3.1415926589793;
+console.log(pi);
+console.log(typeof (pi));
+var zero = 0;
+console.log(zero);
+console.log(typeof (zero));
+var b = true;
+console.log(b);
+console.log(typeof (b));
+b = false;
+console.log(b);
+console.log(typeof (b));
+var num = 26;
+console.log(num);
+console.log(typeof (num)); //型推論
+num += 101;
+console.log(num);
+var firstName = "John";
+var familyName = "Doe";
+var message1 = "Hello! I am " + firstName + " " + familyName + ".";
+var message2 = "Hello!\nI am ".concat(firstName, " ").concat(familyName, ".");
+console.log(message1);
+console.log(message2);
