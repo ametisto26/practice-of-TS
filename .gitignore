@@ -1,0 +1,5 @@
+#gitignore
+PowerShell
+node_modules/
+package-lock.json
+package.json
