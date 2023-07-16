@@ -1,1 +1,1 @@
-# practice-of-TS
+# Practice of TypeScript programming
