@@ -33,3 +33,4 @@ console.log(message2);
 console.log("Hello lite-server!");
 console.log("Hello npm!");
 console.log("Hello app.ts!"); //second.ts との動作確認用
+//# sourceMappingURL=app.js.map
