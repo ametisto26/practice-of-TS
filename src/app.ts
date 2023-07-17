@@ -29,7 +29,6 @@ console.log(typeof(num)); //型推論
 num += 101;
 console.log(num);
 
-
 const firstName = "John";
 const familyName = "Doe";
 
@@ -46,3 +45,4 @@ console.log("Hello lite-server!")
 console.log("Hello npm!")
 
 console.log("Hello app.ts!") //second.ts との動作確認用
+
