@@ -1,5 +1,6 @@
+"use strict";
 console.log("Hello World!");
-var str = "Hello!";
+const str = "Hello!";
 console.log(str);
 /*
 console.log("Hello World!");

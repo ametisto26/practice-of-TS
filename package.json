@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "lite-server": "^2.6.1",
+    "typescript": "^5.1.6"
+  },
+  "name": "practice-of-ts",
+  "description": "",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}

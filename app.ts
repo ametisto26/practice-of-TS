@@ -40,3 +40,9 @@ console.log(message1);
 console.log(message2);
 
 //tsc app.ts -w (-watch)  and vtrl + C
+//edit package.json
+
+console.log("Hello lite-server!")
+console.log("Hello npm!")
+
+console.log("Hello app.ts!") //second.ts との動作確認用
