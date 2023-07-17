@@ -38,3 +38,5 @@ const message2 = `Hello!
 I am ${firstName} ${familyName}.`;
 console.log(message1);
 console.log(message2);
+
+//tsc app.ts -w (-watch)  and vtrl + C
