@@ -92,3 +92,56 @@ const arr1 = [0, 1, 2, 3];
 const arr2 = [4, 5, 6];
 const mergedArr = arr1.concat(arr2);
 console.log(mergedArr);
+
+//オブジェクト（連想配列）の例
+const user = {
+       name: "J. Kristalo",
+       age: 35,
+};
+
+console.log(user.name); 
+console.log(user.age);
+
+console.log(user["name"]);
+console.log(user["age"]);
+
+user.age = 29; //user["age"] = 29 でも良い。
+console.log(user.age);
+
+console.log(Object.keys(user).length);
+
+console.log(Object.keys(user));
+
+const user2: {
+       name: string
+       age: number
+} = {
+       name: "K. Ametisto",
+       age: 37,
+};
+
+console.log(user2.name); 
+console.log(user2.age);
+
+interface UserObj {
+       name: string,
+       age: number,
+       sex?: string,
+};
+
+const user3: UserObj = {
+       name: "John Smith",
+       age: 34,
+};
+
+//タプルの例
+let member: [string, number] = ["Neko", 26];
+
+console.log(member[0]);
+console.log(member[1]);
+
+member = ["Panda", 21];
+
+console.log(member[0]);
+console.log(member[1]);
+
