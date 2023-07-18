@@ -35,4 +35,35 @@ const totalCost = (price, num = 1) => {
 };
 console.log(totalCost(5));
 console.log(totalCost(5, 6));
+//配列
+const colors = ["Red", "Green", "Blue"];
+console.log(colors);
+const nums = [3, 2, 1];
+console.log(nums);
+const mixedArr = ["abc", 1, false, [2, "v"]];
+console.log(mixedArr);
+console.log(colors[0]);
+console.log(mixedArr[3]);
+console.log(colors.length);
+console.log(colors[colors.length - 1]);
+const emptyArr = [];
+colors.push("Black");
+console.log(colors);
+colors.unshift("Yellow");
+console.log(colors);
+colors[1] = "Scarlet";
+console.log(colors);
+const insertArr = ["a", "b", "c"];
+insertArr.splice(1, 0, "D");
+console.log(insertArr);
+insertArr.splice(2, 0, "X", "Y", "Z");
+console.log(insertArr);
+insertArr.splice(2, 2);
+console.log(insertArr);
+insertArr.splice(2, 2, "X", "Y", "Z");
+console.log(insertArr);
+const arr1 = [0, 1, 2, 3];
+const arr2 = [4, 5, 6];
+const mergedArr = arr1.concat(arr2);
+console.log(mergedArr);
 //# sourceMappingURL=func.js.map
