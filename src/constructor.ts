@@ -42,7 +42,3 @@ console.log(emma.age);
 console.log(emma.adminRole)
 console.log(emma.isAdult());
 emma.sayAdminRole();
-
-
-
-
